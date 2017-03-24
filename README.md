@@ -1,8 +1,10 @@
-# BIDS_folder_script
+# BIDS_helper Scripts
 
 
-run: bash BIDS_folders.sh in terminal
+BIDS_folders.sh
+--> Building BIDS Folderstructure
 
-Enter: Foldername
+BIDS_filerenamer.sh
+--> Renaming Files according to BIDS Reference
 
-Enter: Number of Subjects
+
