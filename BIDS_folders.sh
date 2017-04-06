@@ -1,5 +1,5 @@
 #!/bin/bash
-#Setting up a BIDS Folder Structure
+#Initializing a BIDS Folder Structure for further analyses
 
 echo
 echo -n "Enter the name of the folder and press [ENTER]: "
@@ -25,7 +25,6 @@ l_subj=$subs
 f_sess=1
 s_sess=9
 l_sess=$sessions
-
 
 
 for i in $(eval echo "{$f_subj..$l_subj}")
