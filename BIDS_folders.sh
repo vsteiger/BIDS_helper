@@ -26,7 +26,6 @@ f_sess=1
 s_sess=9
 l_sess=$sessions
 
-
 for i in $(eval echo "{$f_subj..$l_subj}")
 do
   if [ $i -le $s_subj ]; then
@@ -46,6 +45,6 @@ do
       else
         mkdir -p sub-${i}/ses-$j/{anat,dwi,func}
       fi
-    done  
+    done
   fi
 done
