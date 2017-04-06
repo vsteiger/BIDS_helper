@@ -1,5 +1,5 @@
 #!/bin/bash
-#Setting up a BIDS Folder Structure
+#Renaming Files that are a in BIDS folder structure
 
 echo
 echo -n "Enter the name of the folder and press [ENTER]: "
