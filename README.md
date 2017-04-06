@@ -1,10 +1,9 @@
 # BIDS_helper Scripts
 
 
-BIDS_folders.sh
---> Building BIDS Folderstructure
+BIDS_folders.sh --> initializes a BIDS folder structure for all three modalities (anat, dwi, func)
 
-BIDS_filerenamer.sh
---> Renaming Files according to BIDS Reference
+
+BIDS_renamer.sh --> renamed all files in a current BIDS folder structure according to BIDS Reference
 
 
