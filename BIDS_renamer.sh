@@ -1,5 +1,5 @@
 #!/bin/bash
-#Renaming Files that are a in BIDS folder structure
+#Renaming MRI files that are a in a current BIDS folder structure, ev. built by BIDS_folders.sh
 
 echo
 echo -n "Enter the name of the folder and press [ENTER]: "
@@ -41,7 +41,6 @@ do
     mv sub-${i}/func/*.nii.gz sub-${i}/func/sub-${i}_task-rest_bold.nii.gz
   fi
 done
-
 
 for i in $(eval echo "{$f_subj..$l_subj}")
 do
